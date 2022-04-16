@@ -32,6 +32,38 @@ header {
     color: var(--tertiary)
 }
 
+/* Main content */
+.container {
+    padding: 20px;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    color: var(--primary);
+    font-size: 3.0rem;
+    font-weight: bold;
+  }
+
+p {
+    color: var(--primary);
+    font-size: 2.0rem;
+  }
+
+.start {
+    align-items: center;
+    text-align: center;
+    }
+
+.start h1, .start p {
+    text-align: center;
+    }
+
+#high-score {
+    text-align: left;
+    }
+
 /* Button Style */
 .btn {
     background: var(--secondary);
