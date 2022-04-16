@@ -27,6 +27,11 @@ header {
     width: 95%;
 }
 
+#view-high-scores:hover {
+    cursor: pointer;
+    color: var(--tertiary)
+}
+
 /* Button Style */
 .btn {
     background: var(--secondary);
