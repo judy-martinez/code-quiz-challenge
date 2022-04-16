@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary: #0a0808c5;
+    --secondary: #8207a1;
+    --tertiary: rgb(211, 56, 144);
+    --white: rgb(255, 255, 255);
+    font-size: 63%;
+}
+
 /* Body */
 body {
     background: #ededed;
@@ -17,4 +25,15 @@ header {
     justify-content: space-between;
     margin: auto;
     width: 95%;
-} 
+}
+
+/* Button Style */
+.btn {
+    background: var(--secondary);
+    color: var(--white);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 3px grey;
+    margin-top: 10px;
+}
