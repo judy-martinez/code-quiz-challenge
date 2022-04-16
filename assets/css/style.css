@@ -37,3 +37,25 @@ header {
     box-shadow: 0 3px grey;
     margin-top: 10px;
 }
+
+.startend {
+    width: 25%;
+    margin-top: 10px;
+}
+
+/* media query for smaller screens */
+@media screen and (max-width: 1024px) {
+
+    .btn {
+        width: 100%;
+        font-size: 3.0vw;
+    }
+
+    h1 {
+        font-size: 4.5vw;
+    }
+
+    p {
+        font-size: 3.0vw;
+    }
+}
